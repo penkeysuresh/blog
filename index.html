@@ -6,10 +6,12 @@ layout: default
 
   <h1 class="page-heading">Posts</h1> 
   <p>
-      <a href="/v2.6">version 2.6</a> 
-      <a href="/v2.8">version 2.8</a>
-      <a href="/"> master</a>
+      <li><a href="/v2.6">version 2.6</a></li> 
+      <li><a href="/v2.8">version 2.8</a></li>
+      <li><a href="/"> master</a></li>
   </p>
+
+  <strong> kubectl apply -f https://docs.harkey.in/v2.6/manifests/aks/bgp.yaml </strong>
 
   <ul class="post-list">
     {% for post in site.posts %}
