@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Installing docker"
 date:   2016-10-17 17:04:38 +0530
 categories: docker, all
